@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3rd Cell — AI-Native Cell Manufacturing</title>
+<meta name="description" content="3rd Cell is building the next generation of AI-native CDMOs — advanced robotics, artificial intelligence and stem cell engineering for programmable, reproducible and scalable human cell manufacturing.">
+<meta property="og:title" content="3rd Cell — Engineering the Future of Cell Manufacturing">
+<meta property="og:description" content="AI-native CDMO for cell and gene therapy: automated cell culture, intelligent differentiation control, real-time biological monitoring and AI-driven process optimization.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══════════ HEADER ══════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="3rd Cell home">
+      <img src="assets/logo.png" alt="3rd Cell" class="brand-logo">
+      <span class="brand-tag">Engineering Life's Next Possibilities</span>
+    </a>
+
+    <nav class="nav" id="primaryNav" aria-label="Primary">
+      <a href="#top" class="nav-link is-active">Home</a>
+      <a href="#technology" class="nav-link">Technology</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#programs" class="nav-link">Personalized Program</a>
+      <a href="#applications" class="nav-link">Applications</a>
+      <a href="#partnerships" class="nav-link">Partnerships</a>
+      <a href="#conference" class="nav-link">Conference</a>
+      <a href="#about" class="nav-link">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-primary btn-sm">Contact</a>
+      <button class="burger" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="search-bar" id="searchBar">
+    <div class="wrap search-inner">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input type="search" placeholder="Search 3rd Cell — technology, programs, research…" aria-label="Search site">
+      <button class="search-close" id="searchClose" aria-label="Close search">Esc</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="hero" aria-roledescription="carousel">
+  <div class="hero-stage">
+    <div class="hero-slide is-active" data-theme="light">
+      <img class="hero-img" src="assets/hero.jpg" alt="A multi-generational family looking up at glowing cell spheres above a city skyline">
+    </div>
+    <div class="hero-slide" data-theme="light" data-scrim="light">
+      <img class="hero-img" src="assets/lab.jpg" alt="Multi-robot collaborative cell manufacturing laboratory" style="object-position:62% 50%">
+    </div>
+    <div class="hero-slide" data-theme="dark">
+      <img class="hero-img" src="assets/footer-bg.jpg" alt="Luminous engineered cell spheres">
+    </div>
+  </div>
+
+  <div class="hero-scrim"></div>
+
+  <div class="hero-copy-wrap">
+    <div class="hero-copy">
+      <h1 class="hero-title">
+        <span class="t-dark" data-slide-line>3rd Cell</span>
+        <span class="t-dark" data-slide-line>Super Power</span>
+        <span class="t-blue" data-slide-line>for a Healthier</span>
+        <span class="t-blue" data-slide-line>Tomorrow</span>
+      </h1>
+      <p class="hero-sub" data-slide-sub>Engineering the Future of Cell Manufacturing</p>
+      <a href="#technology" class="btn btn-primary btn-lg" data-slide-cta>Explore Our Solutions
+        <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </a>
+    </div>
+    <p class="hero-eyebrow" data-slide-eyebrow><span>Regenerate</span><span>Activate</span><span>Live Brighter</span></p>
+    <p class="hero-script" data-slide-script>Healthy Cells<br><span>Brighter Lives</span></p>
+  </div>
+
+  <button class="hero-arrow hero-arrow--prev" id="heroPrev" aria-label="Previous slide">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+  </button>
+  <button class="hero-arrow hero-arrow--next" id="heroNext" aria-label="Next slide">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+  </button>
+
+  <div class="hero-dots" id="heroDots" role="tablist" aria-label="Slide selector"></div>
+</section>
+
+<!-- ══════════ PILLARS ══════════ -->
+<section class="pillars" id="products">
+  <div class="wrap pillars-grid">
+    <a class="pillar" href="#programs">
+      <span class="pillar-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg>
+      </span>
+      <span class="pillar-label">Personalized<br>Cell Program</span>
+    </a>
+    <a class="pillar" href="#technology">
+      <span class="pillar-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V9l5-3 5 3v11"/><path d="M14 12h4a2 2 0 0 1 2 2v6"/><path d="M2.5 20h19"/><path d="m15.5 6.5 2.5-3 2.5 3"/></svg>
+      </span>
+      <span class="pillar-label">Automated<br>Cell Manufacturing</span>
+    </a>
+    <a class="pillar" href="#technology">
+      <span class="pillar-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="2.5"/><path d="M10.5 4v3M13.5 4v3M10.5 17v3M13.5 17v3M4 10.5h3M4 13.5h3M17 10.5h3M17 13.5h3"/></svg>
+      </span>
+      <span class="pillar-label">AI Monitoring<br>&amp; Quality Control</span>
+    </a>
+    <a class="pillar" href="#applications">
+      <span class="pillar-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6.2v5.3c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6.2L12 3.5Z"/><path d="M12 9v6M9 12h6"/></svg>
+      </span>
+      <span class="pillar-label">Clinical<br>Applications</span>
+    </a>
+  </div>
+</section>
+
+<!-- ══════════ TECHNOLOGY ══════════ -->
+<section class="tech" id="technology">
+  <div class="wrap">
+    <div class="tech-head">
+      <h2 class="h2">Intelligent<br>Cell Manufacturing</h2>
+      <p class="lede">Advanced robotics, artificial intelligence and stem cell engineering in a single platform — automated cell culture, intelligent differentiation control, real-time biological monitoring and AI-driven process optimization.</p>
+      <a href="#platform" class="btn btn-ghost btn-lg">Our Technology
+        <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+  <div class="tech-media">
+    <img src="assets/lab.jpg" alt="Robotic arms and scientists working at collaborative cell culture workstations">
+    <button class="watch" id="watchVideo">
+      <span class="watch-play">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.2v13.6L19 12 8 5.2Z"/></svg>
+      </span>
+      <span class="watch-text">Watch the Video</span>
+    </button>
+  </div>
+</section>
+
+<!-- ══════════ TRANSFER / PROBLEM ══════════ -->
+<section class="band band--ice" id="transfer">
+  <div class="wrap">
+    <p class="kicker"><span>01</span> The Problem</p>
+    <h2 class="h2 h2-sm">A protocol that works<br>is not yet a protocol<br>that travels</h2>
+    <p class="lede">A cell therapy process is developed in a research lab, then has to be received and re-run somewhere else — a manufacturing partner, a hospital production centre, a second site. Receiving it means re-teaching the handling, re-mapping it onto different equipment and labware, repeating experiments, retraining people and re-validating the result.</p>
+
+    <div class="duo">
+      <article class="duo-card reveal">
+        <h3>Process migration</h3>
+        <p>What changes when the vessels, the medium and the handling change. Re-developed, re-validated, and paid for again at every transfer.</p>
+      </article>
+      <article class="duo-card reveal">
+        <h3>Lab deployment</h3>
+        <p>What changes when the room, the equipment and the way people move through it change. A purchase budget cannot buy floor space.</p>
+      </article>
+    </div>
+
+    <figure class="band-figure reveal">
+      <img src="assets/transfer-path.jpg" alt="Three stages of process transfer: a mature protocol at the bench, the same protocol executed and recorded by a robot, and a receiving team reproducing it in a cleanroom.">
+      <figcaption>The path 3rd Cell is built to shorten: a mature bench protocol, executed and recorded as a robot process, reproduced by the receiving team.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════ APPROACH ══════════ -->
+<section class="band" id="approach">
+  <div class="wrap">
+    <p class="kicker"><span>02</span> The Approach</p>
+    <h2 class="h2 h2-sm">Keep the protocol.<br>Keep the lab.</h2>
+    <p class="lede">Most cell automation asks a lab to change both things at once: adopt a new process format, and make room for a fixed workstation. Our entry point is to change neither. The mature culture conditions stay. The existing room, bench heights and equipment positions stay. What gets added is a robot that can reach them.</p>
+
+    <div class="quad">
+      <article class="quad-card reveal">
+        <span class="quad-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v5l4 9a3 3 0 0 1-2.8 4H7.8A3 3 0 0 1 5 17l4-9V3Z"/><path d="M9 3h6M7.5 14h9"/></svg></span>
+        <h3>The labware stays</h3>
+        <p>Flasks, plates and media the lab already validated remain the ones in use, so culture conditions do not have to be re-developed.</p>
+      </article>
+      <article class="quad-card reveal">
+        <span class="quad-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l7-5 7 5v11"/><path d="M10 20v-5h4v5"/></svg></span>
+        <h3>The room stays</h3>
+        <p>A mobile base moves along the lab's existing traffic routes instead of claiming a dedicated footprint, so a purchase does not depend on a renovation.</p>
+      </article>
+      <article class="quad-card reveal">
+        <span class="quad-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8Z"/><path d="M9 8V5a3 3 0 0 1 6 0v3M3 12h18"/></svg></span>
+        <h3>The instruments stay</h3>
+        <p>Incubators, biosafety cabinets and microscopes are docked with and handed off to, rather than replaced by a sealed cartridge system.</p>
+      </article>
+      <article class="quad-card reveal">
+        <span class="quad-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v10m0 0 4-4m-4 4-4-4"/><path d="M4 15v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-3"/></svg></span>
+        <h3>The execution is recorded</h3>
+        <p>Each run produces a traceable record of what was done — which is what makes a process reproducible at the second site at all.</p>
+      </article>
+    </div>
+
+    <figure class="band-figure band-figure--wide reveal">
+      <img src="assets/lab-motion.jpg" alt="Two lab layouts compared: a fixed automation workstation occupying the centre of the room, and a mobile robot travelling the existing routes between equipment.">
+      <figcaption>Left, a fixed workstation added to the room. Right, the same room with a mobile robot using the routes that are already there.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════ CYCLE ══════════ -->
+<section class="band band--ice" id="cycle">
+  <div class="wrap">
+    <p class="kicker"><span>03</span> The Workflow</p>
+    <h2 class="h2 h2-sm">Nine steps, one plate</h2>
+    <p class="lede">Registration first, then seeding, then dosing, then close out and start again. The pipette swap in the middle carries the most risk: that is where a tip is discarded, a second pipette is picked up, and the run has to stay sterile across the handover.</p>
+
+    <div class="spec-row">
+      <span><b>Arm</b> Dobot NOVA 2 · 6-axis collaborative</span>
+      <span><b>Cycle</b> 9 steps, seeding to dosing</span>
+      <span><b>Localization</b> Overhead camera + AprilTags</span>
+    </div>
+
+    <div class="cycle-grid">
+      <figure class="plate-figure reveal">
+        <svg class="plate" data-plate data-cols="6" viewBox="0 0 360 260" role="img" aria-label="A 24-well plate filling well by well in the serpentine order a pipette works">
+          <defs>
+            <linearGradient id="wellFill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#4ADDDA"/>
+              <stop offset="1" stop-color="#1670C4"/>
+            </linearGradient>
+          </defs>
+          <rect class="plate__frame" x="12" y="14" width="336" height="232" rx="10"/>
+          <g class="plate__wells">
+            <circle class="plate__well" cx="50"  cy="52"  r="18"/><circle class="plate__fill" cx="50"  cy="52"  r="11.5"/>
+            <circle class="plate__well" cx="102" cy="52"  r="18"/><circle class="plate__fill" cx="102" cy="52"  r="11.5"/>
+            <circle class="plate__well" cx="154" cy="52"  r="18"/><circle class="plate__fill" cx="154" cy="52"  r="11.5"/>
+            <circle class="plate__well" cx="206" cy="52"  r="18"/><circle class="plate__fill" cx="206" cy="52"  r="11.5"/>
+            <circle class="plate__well" cx="258" cy="52"  r="18"/><circle class="plate__fill" cx="258" cy="52"  r="11.5"/>
+            <circle class="plate__well" cx="310" cy="52"  r="18"/><circle class="plate__fill" cx="310" cy="52"  r="11.5"/>
+            <circle class="plate__well" cx="50"  cy="104" r="18"/><circle class="plate__fill" cx="50"  cy="104" r="11.5"/>
+            <circle class="plate__well" cx="102" cy="104" r="18"/><circle class="plate__fill" cx="102" cy="104" r="11.5"/>
+            <circle class="plate__well" cx="154" cy="104" r="18"/><circle class="plate__fill" cx="154" cy="104" r="11.5"/>
+            <circle class="plate__well" cx="206" cy="104" r="18"/><circle class="plate__fill" cx="206" cy="104" r="11.5"/>
+            <circle class="plate__well" cx="258" cy="104" r="18"/><circle class="plate__fill" cx="258" cy="104" r="11.5"/>
+            <circle class="plate__well" cx="310" cy="104" r="18"/><circle class="plate__fill" cx="310" cy="104" r="11.5"/>
+            <circle class="plate__well" cx="50"  cy="156" r="18"/><circle class="plate__fill" cx="50"  cy="156" r="11.5"/>
+            <circle class="plate__well" cx="102" cy="156" r="18"/><circle class="plate__fill" cx="102" cy="156" r="11.5"/>
+            <circle class="plate__well" cx="154" cy="156" r="18"/><circle class="plate__fill" cx="154" cy="156" r="11.5"/>
+            <circle class="plate__well" cx="206" cy="156" r="18"/><circle class="plate__fill" cx="206" cy="156" r="11.5"/>
+            <circle class="plate__well" cx="258" cy="156" r="18"/><circle class="plate__fill" cx="258" cy="156" r="11.5"/>
+            <circle class="plate__well" cx="310" cy="156" r="18"/><circle class="plate__fill" cx="310" cy="156" r="11.5"/>
+            <circle class="plate__well" cx="50"  cy="208" r="18"/><circle class="plate__fill" cx="50"  cy="208" r="11.5"/>
+            <circle class="plate__well" cx="102" cy="208" r="18"/><circle class="plate__fill" cx="102" cy="208" r="11.5"/>
+            <circle class="plate__well" cx="154" cy="208" r="18"/><circle class="plate__fill" cx="154" cy="208" r="11.5"/>
+            <circle class="plate__well" cx="206" cy="208" r="18"/><circle class="plate__fill" cx="206" cy="208" r="11.5"/>
+            <circle class="plate__well" cx="258" cy="208" r="18"/><circle class="plate__fill" cx="258" cy="208" r="11.5"/>
+            <circle class="plate__well" cx="310" cy="208" r="18"/><circle class="plate__fill" cx="310" cy="208" r="11.5"/>
+          </g>
+          <g class="plate__tip">
+            <circle r="25" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"/>
+            <line x1="-32" y1="0" x2="-27" y2="0" stroke="currentColor" stroke-width="1.4"/>
+            <line x1="27"  y1="0" x2="32"  y2="0" stroke="currentColor" stroke-width="1.4"/>
+            <line x1="0" y1="-32" x2="0" y2="-27" stroke="currentColor" stroke-width="1.4"/>
+            <line x1="0" y1="27"  x2="0" y2="32"  stroke="currentColor" stroke-width="1.4"/>
+          </g>
+        </svg>
+        <figcaption>A seeding pass across a 24-well plate, in dispense order. The reticle marks the well the arm is addressing.</figcaption>
+      </figure>
+
+      <ol class="steps" id="stepsList">
+        <li class="steps-group"><h4>Registration</h4></li>
+        <li class="step"><span class="step-n">01</span><div><strong>Vision mapping</strong><p>The overhead camera detects the AprilTags and establishes the workstation coordinate system — so the bench can be rebuilt without re-teaching every point.</p></div></li>
+        <li class="step"><span class="step-n">02</span><div><strong>Uncap plate</strong><p>The arm lifts the lid to the lid station, clear of the path the pipette will travel for the rest of the cycle.</p></div></li>
+        <li class="steps-group"><h4>Cell seeding</h4></li>
+        <li class="step"><span class="step-n">03</span><div><strong>Select large-volume pipette</strong><p>Seeding moves more liquid than dosing, which is why the cycle carries two pipettes rather than one.</p></div></li>
+        <li class="step"><span class="step-n">04</span><div><strong>Load tip</strong><p>The pipette presses down to snap on a tip. The seal depends on that press, so force and alignment must both be repeatable.</p></div></li>
+        <li class="step"><span class="step-n">05</span><div><strong>Aspirate cells and seed plate</strong><p>Cell suspension is drawn from the reservoir and dispensed into each well — the step where well-to-well consistency is judged.</p></div></li>
+        <li class="steps-group"><h4>Pipette changeover</h4></li>
+        <li class="step"><span class="step-n">06</span><div><strong>Eject tip, return pipette</strong><p>Nothing that touched the cell suspension continues into the dosing half of the cycle.</p></div></li>
+        <li class="step"><span class="step-n">07</span><div><strong>Switch to small-volume pipette</strong><p>Dosing accuracy depends on this swap putting the second pipette in the same place as the first, every time.</p></div></li>
+        <li class="steps-group"><h4>Drug dosing</h4></li>
+        <li class="step"><span class="step-n">08</span><div><strong>Aspirate reagent and dose plate</strong><p>Reagent is dispensed into each well according to the well map — the plan of which well receives which condition.</p></div></li>
+        <li class="steps-group"><h4>Close out</h4></li>
+        <li class="step"><span class="step-n">09</span><div><strong>Recap and transfer</strong><p>The lid goes back on, the plate moves to the standby slot, and the cycle restarts for the next plate.</p></div></li>
+      </ol>
+    </div>
+
+    <div class="machine-band reveal">
+      <img src="assets/machine.jpg" alt="A six-axis collaborative arm on a lifting column mounted to a mobile base, alongside a lab bench holding a culture flask.">
+      <div class="machine-copy">
+        <p class="kicker kicker--light"><span>04</span> The Machine</p>
+        <h3 class="h2 h2-xs">A mobile base, a lifting column, one arm</h3>
+        <dl class="machine-list">
+          <div><dt>Mobile base</dt><dd>Travels the lab's existing routes between equipment, so no single station has to hold everything.</dd></div>
+          <div><dt>Lifting column &amp; docking</dt><dd>Matches the working heights that are already there, instead of asking for benches to be rebuilt.</dd></div>
+          <div><dt>Interchangeable tools</dt><dd>A liquid-handling module, a labware gripper and a soft module for tissue. The tools change; the arm does not.</dd></div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="prove">
+      <p class="kicker"><span>05</span> Evaluation</p>
+      <h3 class="h2 h2-xs">What the hardware has to prove</h3>
+      <p class="lede">Six things decide whether candidate hardware can run this cycle unattended. They are listed in the order they would fail: a vision error puts every later position in the wrong place, while a dosing error only affects the plate in front of it.</p>
+
+      <ol class="prove-list">
+        <li class="reveal"><span class="prove-n">01</span><strong>Vision accuracy and automatic calibration</strong><p>How closely the camera resolves a tag, and whether the system can re-establish the coordinate system on its own after the bench is disturbed.</p></li>
+        <li class="reveal"><span class="prove-n">02</span><strong>Pipette quick change and repeatable repositioning</strong><p>Whether the second pipette lands where the first one did, run after run.</p></li>
+        <li class="reveal"><span class="prove-n">03</span><strong>Plunger stroke and force control</strong><p>Control of the first and second stop — what separates a clean dispense from a partial one.</p></li>
+        <li class="reveal"><span class="prove-n">04</span><strong>Tip loading and ejection success rate</strong><p>Measured over a run, not demonstrated once. A tip that fails to seat spoils everything downstream of it.</p></li>
+        <li class="reveal"><span class="prove-n">05</span><strong>Well-level motion accuracy and contamination control</strong><p>Positioning tight enough to address an individual well, and a path that never carries one liquid over another.</p></li>
+        <li class="reveal"><span class="prove-n">06</span><strong>Error detection, collision avoidance and protocol software</strong><p>What the system does when something is not where it should be — and whether the protocol can be versioned rather than hand-taught.</p></li>
+      </ol>
+
+      <figure class="band-figure prove-sheet reveal">
+        <img src="assets/workflow-overview.jpg" alt="Workstation overview diagram showing the ten elements, the nine-step seeding and dosing cycle, and six vendor evaluation criteria.">
+        <figcaption>The workstation as specified for vendor alignment: the ten elements, the nine-step cycle, and the evaluation criteria on the right.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MARKET ══════════ -->
+<section class="band band--tight" id="market">
+  <div class="wrap">
+    <p class="kicker kicker--light"><span>06</span> Why Now</p>
+    <h2 class="h2 h2-sm">Demand is growing faster than<br>the people who can run the work</h2>
+    <p class="lede">Public datasets point the same direction: approved therapies are selling more, more companies are developing them, and more programs are entering trials. Every one of those programs needs cell handling done by hand, repeatedly, by trained people.</p>
+
+    <div class="stats">
+      <div class="stat reveal"><span class="stat-num">30<em>%</em></span><p>Growth in combined 2025 sales of six approved CAR-T therapies, reaching <strong>$5.89&nbsp;billion</strong>.</p></div>
+      <div class="stat reveal"><span class="stat-num">912</span><p>Cell therapy developers counted worldwide, up from <strong>796</strong> a little over a year earlier.</p></div>
+      <div class="stat reveal"><span class="stat-num">940</span><p>Non-genetically-modified cell therapy programs in development, from preclinical to filing.</p></div>
+    </div>
+    <p class="stat-note">Figures are drawn from public filings and registries. Periods and sources available on request.</p>
+  </div>
+</section>
+
+<!-- ══════════ STORIES ══════════ -->
+<section class="stories" id="programs">
+  <div class="wrap stories-grid">
+
+    <article class="story reveal">
+      <div class="story-media"><img src="assets/card-program.jpg" alt="An older couple smiling in the mountains"></div>
+      <div class="story-body">
+        <h3 class="story-title">Personalized<br>Cell Program</h3>
+        <p class="story-desc">Patient-specific iPSC and differentiated cell libraries — engineered for reproducible, scalable clinical translation.</p>
+        <span class="story-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </div>
+    </article>
+
+    <article class="story reveal" id="conference">
+      <div class="story-media"><img src="assets/card-conference.jpg" alt="A speaker on stage at the 3rd Cell International Conference"></div>
+      <div class="story-body">
+        <h3 class="story-title">3rd Cell<br>International Conference</h3>
+        <p class="story-desc">Bringing together global leaders in cell manufacturing and regenerative medicine.</p>
+        <span class="story-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </div>
+    </article>
+
+    <article class="story reveal" id="partnerships">
+      <div class="story-media"><img src="assets/card-partner.jpg" alt="Shanghai Jiahui Hospital campus"></div>
+      <div class="story-body">
+        <h3 class="story-title"><em>Strategic Partnership</em><br>3rd Cell &times; Shanghai Jiahui Hospital</h3>
+        <p class="story-desc">Advancing cell medicine through global clinical and manufacturing collaboration.</p>
+        <span class="story-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ══════════ APPLICATIONS ══════════ -->
+<section class="apps" id="applications">
+  <div class="wrap">
+    <div class="apps-head">
+      <h2 class="h2 h2-sm">Applications &amp; Initiatives</h2>
+      <a href="#about" class="link-more">Explore More
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13m-5-6 6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="apps-grid">
+      <a class="app-card reveal" href="#programs">
+        <div class="app-media"><img src="assets/app-therapy.jpg" alt="A young child hugging a teddy bear"></div>
+        <h3 class="app-title">Special Disease Cell Therapy Programs</h3>
+        <p class="app-desc">Patient-specific iPSC programs for cardiovascular and rare disease.</p>
+        <span class="app-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </a>
+      <a class="app-card reveal" href="#technology">
+        <div class="app-media"><img src="assets/app-datacenter.jpg" alt="Rows of illuminated server racks"></div>
+        <h3 class="app-title">Cell Data Center</h3>
+        <p class="app-desc">A continuously learning data layer that improves quality, consistency and yield.</p>
+        <span class="app-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </a>
+      <a class="app-card reveal" href="#about">
+        <div class="app-media"><img src="assets/app-irvine.jpg" alt="Palm trees in front of a modern research campus"></div>
+        <h3 class="app-title">Irvine Innovation Center</h3>
+        <p class="app-desc">Wet lab collaboration for iPSC and MSC program development.</p>
+        <span class="app-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </a>
+      <a class="app-card reveal" href="#technology">
+        <div class="app-media"><img src="assets/app-dallas.jpg" alt="A 3rd Cell facility beside a city skyline"></div>
+        <h3 class="app-title">Dallas 3rd Cell Base</h3>
+        <p class="app-desc">Cell manufacturing and clinical translation at industrial scale.</p>
+        <span class="app-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </a>
+      <a class="app-card reveal" href="#partnerships">
+        <div class="app-media"><img src="assets/app-boston.jpg" alt="Boston skyline along the river at dusk"></div>
+        <h3 class="app-title">Boston 3rd Cell Lab</h3>
+        <p class="app-desc">Research, partnerships and global impact across cell &amp; gene therapy.</p>
+        <span class="app-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PLATFORM ══════════ -->
+<section class="platform" id="about">
+  <div class="wrap">
+    <p class="plat-kicker">AI-Native CDMO</p>
+    <h2 class="h2 h2-sm">One Platform.<br>Every Cell Type.</h2>
+    <p class="lede">3rd Cell is building the next generation of AI-native Contract Development and Manufacturing Organizations — redefining how human cells are developed, differentiated and manufactured for biotechnology companies, pharmaceutical developers and research institutions.</p>
+
+    <div class="plat-grid">
+      <article class="plat-card reveal">
+        <span class="plat-num">01</span>
+        <h3>Automated Cell Culture</h3>
+        <p>Multi-robot collaborative workstations replace labor-intensive manual passaging, feeding and harvest.</p>
+      </article>
+      <article class="plat-card reveal">
+        <span class="plat-num">02</span>
+        <h3>Intelligent Differentiation Control</h3>
+        <p>Programmable protocols steer pluripotent cells toward cardiomyocytes, neurons, pancreatic beta cells and beyond.</p>
+      </article>
+      <article class="plat-card reveal">
+        <span class="plat-num">03</span>
+        <h3>Real-Time Biological Monitoring</h3>
+        <p>Continuous in-process sensing keeps every batch inside specification, from expansion to final release.</p>
+      </article>
+      <article class="plat-card reveal">
+        <span class="plat-num">04</span>
+        <h3>AI-Driven Process Optimization</h3>
+        <p>A continuously learning system turns biological data into better cell quality, consistency and yield.</p>
+      </article>
+    </div>
+
+    <div class="chips">
+      <span>iPSC</span><span>MSC</span><span>T Cells</span><span>CAR-T</span><span>NK Cells</span><span>CAR-NK</span><span>HSC</span><span>Cardiomyocytes</span><span>Neurons</span><span>Pancreatic Beta Cells</span>
+    </div>
+
+    <div class="plat-team">
+      <h4>Built by a multidisciplinary team</h4>
+      <p>Scientific leadership from <strong>Stanford University School of Medicine</strong> brings over 22 years in stem cell research and clinical translation — including patient-specific iPSC and differentiated cardiomyocyte libraries representing hundreds of individuals, spanning directed differentiation, cardiovascular and rare disease, tissue engineering and cell manufacturing, with collaborations reaching FDA scientists and contributions to DARPA-funded research. Engineering and business leadership from <strong>Cornell University, the University of Texas at Arlington, the University of Texas at Austin and the University of Washington</strong> adds doctoral-level engineering, robotics industry experience, and deep hands-on expertise in robotic manipulation, intelligent automation and AI systems.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="site-footer">
+  <div class="footer-glow"></div>
+  <div class="wrap footer-grid">
+
+    <div class="footer-brand" id="contact">
+      <img src="assets/logo-white.png" alt="3rd Cell" class="footer-logo">
+      <p class="footer-tag">Engineering Life's<br>Next Possibilities</p>
+    </div>
+
+    <nav class="footer-col" aria-label="Platform">
+      <h4>Platform</h4>
+      <a href="#platform">Automated Cell Culture</a>
+      <a href="#platform">Differentiation Control</a>
+      <a href="#platform">Biological Monitoring</a>
+      <a href="#platform">AI Process Optimization</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="Applications">
+      <h4>Applications</h4>
+      <a href="#applications">Regenerative Medicine</a>
+      <a href="#applications">Immuno-Oncology</a>
+      <a href="#applications">Precision Medicine</a>
+      <a href="#applications">Disease Modeling</a>
+      <a href="#applications">Drug Discovery</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="Resources">
+      <h4>Resources</h4>
+      <a href="#about">News &amp; Events</a>
+      <a href="#conference">Conference</a>
+      <a href="#about">Publications</a>
+      <a href="#about">Careers</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="About">
+      <h4>About</h4>
+      <a href="#about">Our Mission</a>
+      <a href="#about">Leadership</a>
+      <a href="#partnerships">Partners</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-sub">
+      <h4>Subscribe to Updates</h4>
+      <form class="sub-form" id="subForm" novalidate>
+        <label class="sr-only" for="subEmail">Email address</label>
+        <input id="subEmail" type="email" placeholder="Your email address" autocomplete="email" required>
+        <button type="submit" aria-label="Subscribe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+        </button>
+      </form>
+      <p class="sub-note" id="subNote" role="status"></p>
+
+      <div class="socials">
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95C21.1 8.75 22 10.9 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2.05-3.3-2.05 0-2.36 1.57-2.36 3.2V21h-4V9Z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.75-1.77C18.25 5 12 5 12 5s-6.25 0-7.85.43A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.75 1.77C5.75 19 12 19 12 19s6.25 0 7.85-.43a2.5 2.5 0 0 0 1.75-1.77C22 15.2 22 12 22 12s0-3.2-.4-4.8ZM10 15.1V8.9l5.2 3.1-5.2 3.1Z"/></svg></a>
+        <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3.2l-7 8 8.2 10h-6.4l-5-6.1L4.7 21H1.5l7.5-8.6L1.2 3h6.6l4.5 5.6L17.5 3Zm-1.1 16h1.8L7.7 4.8H5.8L16.4 19Z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap footer-base">
+    <p>&copy; 2026 3rd Cell. All rights reserved.</p>
+    <nav class="footer-legal">
+      <a href="#">Privacy</a><span>|</span><a href="#">Terms</a><span>|</span><a href="#">Site Map</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- ══════════ VIDEO MODAL ══════════ -->
+<div class="modal" id="videoModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-label="3rd Cell overview video">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <div class="modal-screen">
+      <div class="modal-head">
+        <p class="modal-caption">Collaborative arm running the cell handling sequence</p>
+        <p class="modal-sub">Bench-side pipetting on an existing lab bench — no dedicated enclosure, no rebuilt workspace.</p>
+      </div>
+      <div class="video-frame">
+        <video id="cycleVideo" controls playsinline preload="metadata"
+               poster="assets/workstation-poster.jpg">
+          <source src="assets/workstation.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+      </div>
+      <p class="modal-hint">Footage from the 3rd Cell workstation program. The nine-step cycle that drives it is set out above.</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
